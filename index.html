@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="src/output.css">
+    <title>Portafolio_enyoi</title>
+</head>
+<body class=" max-h-screen w-full flex flex-col">
+    <header id="header" class=" flex lg:flex-row flex-col">
+        <div  class="bg-bgColorMorado lg:w-[125vh] lg:h-[100vh] flex flex-col m-0 p-9 gap-[200px] justify-center">
+
+            <svg class="absolute top-[300px] floating" width="280" height="200" viewBox="0 0 190 200">
+                <line x1="10" y1="200" x2="220" y2="0" style="stroke:grey; stroke-width:2"></line>
+                <line x1="10" y1="10" x2="220" y2="180" stroke="black" stroke-width="2"></line>
+              </svg>
+              
+              <style>
+                @keyframes floating {
+                  0% {
+                    transform: translateY(0) rotate(0-9);
+                  }
+                  50% {
+                    transform: translateY(-10px) rotate(0deg);
+                  }
+                  100% {
+                    transform: translateY(0) rotate(360deg);
+                  }
+                }
+              
+                .floating {
+                  animation: floating 6s ease-in-out infinite;
+                }
+              </style>
+              
+              
+              <div>
+                <a id="textElias" href="index.html" class="fixed top-[70px] font-primary font-bold text-4xl -tracking-widest text-bgColorVerde hover:cursor-pointer ">elias<span  class="text-gray-500">UM.</span></a>
+
+              </div>
+            <div class="relative max-w-[100%] h-[800px] md:gap-[50px] flex flex-col p-4 s:gap-[120px]">
+                
+                <h2 class="textos font-primary text-5xl text-bgColorVerde font-bold h-6 m-auto"></h2>
+                <div class="m-auto">
+
+                    <h2 class="mt-6 font-primary text-4xl text-white font-bold subtext h-3"></h2>
+                </div>
+                <h2 class="textos font-primary text-5xl text-bgColorVerde font-bold h-6 m-auto"></h2>
+                <div class="m-auto">
+
+                    <h2 class="mt-6 font-primary text-4xl text-white font-bold subtext h-3"></h2>
+                </div>
+                <div class="flex sm:w-[100%] gap-7 h-[80%] font-secondary text-gray-50 m-auto text-center">
+                    <p class="w-[100%] s:text-[0.75rem] md:text-[1.05rem] text-bgColorVerde "> Me gusta innovar en el mundo de la tecnologia y realizar proyectos solidos en el area tecnologico mediante buenas tecnicas y buenas practicas.</p>
+                    <p class="w-[100%]  s:text-[0.75rem] md:text-[1.05rem] text-bgColorVerde ">Amante del diseño y el arte en las areas tecnologicas, me gusta usar la imaginacion y crear diseños unicos e innovadores.</p>
+                </div>
+            </div>
+
+        </div>
+
+        <div id="headerMorado" class="bg-bgColorVerde lg:w-[40%] lg:max-h-[100vh] p-9">
+
+            <div class="flex flex-col max-w-[100%] max-h-[100%]">
+
+                <div id="bienvenido" class="textoRepetivo font-primary text-3xl font-bold text-bgColorNegro max-w-[100%] p-7 text-center"></div>
+              <div class="fixed right-5  max-w-[700px] max-h-[50px] flex flex-row justify-end p-2">
+
+                <svg id="swichW"  class="bx bxs-like" xmlns="http://www.w3.org/2000/svg" width="72" height="72" viewBox="0 0 24 24" style="animation: tada 1s infinite;">
+                    <path d="M16 6H8c-3.296 0-5.982 2.682-6 5.986v.042A6.01 6.01 0 0 0 8 18h8a6.01 6.01 0 0 0 6-5.994v-.018C21.985 8.685 19.297 6 16 6zm-8 9c-1.627 0-3-1.373-3-3s1.373-3 3-3 3 1.373 3 3-1.373 3-3 3z" fill="#B9BDCB"/>
+                  </svg>
+
+                  <svg id="swichB" xmlns="http://www.w3.org/2000/svg" width="72" height="72" viewBox="0 0 24 24" class="bx bxs-like hidden" style="animation: tada 1s infinite;">
+                    <path d="M8 6h8c3.296 0 5.982 2.682 6 5.986v.042A6.01 6.01 0 0 1 16 18H8a6.01 6.01 0 0 1-6-5.994v-.018C2.015 8.685 4.703 6 8 6zm8 9c1.627 0 3-1.373 3-3s-1.373-3-3-3-3 1.373-3 3 1.373 3 3 3z" fill="#000000"/>
+                  </svg>
+
+                  <style>
+                    @keyframes tada {
+                      0% { transform: scale(1); }
+                      10%, 20% { transform: scale(0.9) rotate(-3deg); }
+                      30%, 50%, 70%, 90% { transform: scale(1.1) rotate(3deg); }
+                      40%, 60%, 80% { transform: scale(1.1) rotate(-3deg); }
+                      100% { transform: scale(1) rotate(0); }
+                    }
+                  </style>
+             
+                </div>
+
+                <div class="relative top-14 s:top-2">
+                    <p id="palabra" class="text-center p- font-primary text-xl w-[100%] h-[5px] font-bold text-black relative lg:bottom-7 "></p>
+                    <div class="max-w-[100%] max-h-[100vh] flex flex-col items-center">
+                        
+
+                        <div class="w-[100%] rounded-full h-[70vh] absolute lg:bg-bgColorMorado flex justify-center items-center">
+                            <img id="webClass" class=" hidden hover:cursor-pointer max-w-[70%] max-h-[80%]" src="src/img/myAvatar(1).svg" alt="imagen perfil">
+                            <img id = 'webClassNormal'  class=" hover:cursor-pointer max-w-[70%] max-h-[80%]" src= "src/img/myAvatar(3).svg" alt="imagen perfil 2">
+                        </div>
+
+                        <div class="flex flex-row justify-center bottom-11 gap-4 fixed">
+
+                            <button onclick="scrollToElement('header')"  id="cambio"  class="border-purple-950 border-b-4  w-8 h-6 rounded-sm bg-bgColorMorado hover:bg-purple-400 hover:border-purple-900 transition-all"></button>
+                            <button onclick="scrollToElement('main')"  id="cambio1"  class=" border-purple-950 border-b-4 w-8 h-6 rounded-sm bg-bgColorMorado hover:bg-purple-400 hover:border-purple-900 transition-all" ></button>
+                            <button onclick="scrollToElement('section1')"  id="cambio2"  class=" border-purple-950 border-b-4 w-8 h-6 rounded-sm bg-bgColorMorado hover:bg-purple-400 hover:border-purple-900 transition-all" ></button>
+                            <button onclick="scrollToSection('section2')" id="cambio3"  class=" border-purple-950 border-b-4 w-8 h-6 bg-bgColorMorado rounded-sm hover:bg-purple-400 hover:border-purple-900 transition-all" ></button>
+                            <button onclick="scrollToSection('section3')" id="cambio4"  class=" border-purple-950 border-b-4 w-8 h-6 bg-bgColorMorado rounded-sm hover:bg-purple-400 hover:border-purple-900 transition-all" ></button>
+                            <button onclick="scrollToSection('footer')" id="cambio5"  class=" border-purple-950 border-b-4 w-8 h-6 bg-bgColorMorado rounded-sm hover:bg-purple-400 hover:border-purple-900 transition-all" ></button>
+                           
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </header>
+
+    <main id='main'>
+        <div class="w-[100%] h-[100vh] ">
+            <div class="lg:hidden  h-[90vh] font-primary font-bold text-bgColorMorado text-2xl flex flex-col justify-end gap-3 pt-[100px] pl-7 pr-5 ">
+                <h2 class="text-xl md:text-2xl">Hola, soy Elias.  Es un placer para mi conocerte.</h2>
+                <span class=" text-gray-700 text-sm font-normal">Desde que comence mi viaje como diseñador independiente hace 6 meses, he realizado proyectos individuales y bocetos para la mejora continua de la experiencia en el ambito de la programacion. Actualmente me encuentro en desarrollo de habilidades mediante un bootcamp llamado ENYOI, con unos 3 meses de participacion. Estoy tranquilamente confiado, naturalmente curioso y trabajando perpetuamente en mejorar mis habilidades.</span>
+            </div>
+            <div class="s:hidden lg:w-[70%] lg:h-[90%] lg:m-auto lg:text-center lg:flex lg:flex-col lg:justify-center gap-10 "> 
+                
+                <h2 class="font-primary font-bold text-bgColorMorado text-3xl ">Hola, soy Elias.  Es un placer para mi conocerte.</h2>
+                <span class="text-gray-700 text-xl">Desde que comence mi viaje como diseñador independiente hace 6 meses, he realizado proyectos individuales y bocetos para la mejora continua de la experiencia en el ambito de la programacion. Actualmente me encuentro en desarrollo de habilidades mediante un bootcamp llamado ENYOI, con unos 3 meses de participacion. Estoy tranquilamente confiado, naturalmente curioso y trabajando perpetuamente en mejorar mis habilidades.</span>
+            </div>
+        </div>
+
+        <section id="section1">
+            <div class="w-[100%] h-screen border-b-2 flex gap-2 bg-gray-50">
+                <div class="w-[90%] md:h-[70%] h-[90%] bg-white md:justify-start items-center md:flex m-auto">    
+                    <div class="md:w-[50%] md:h-[100%] h-[50%]  m-auto flex justify-center items-center md:border-r-2 border-bgColorMorado md:flex ">
+                        <div class="w-[80%] h-[70%]">
+                            <div class="flex flex-col gap-[50px] items-center w-[100%] h-[100%] ">
+
+                                <h2 class="text-bgColorMorado font-primary font-bold lg:text-5xl text-4xl md:w-[70%]">Mas Informacion </h2>
+                                <p class="lg:text-xl text-purple-900 md:w-[70%]">Soy un estudiante en formacion de desarrollo web full-stack mediante un bootcamp llamado Enyoi.  </p>
+                                <button class="text-purple-900 font-primary font-semibold w-[70%] h-[50px] border-2 border-bgColorMorado hover:bg-bgColorMorado hover:text-white  transition-all"><a href="Info.html">Mas Informacion</a></button>
+                            </div>
+                        </div>
+
+
+                    </div>
+
+                    <div class="md:w-[50%] md:h-[100%] h-[50%]  m-auto flex justify-center items-center">
+                        <div class="w-[80%] h-[70%] m-auto">
+                            <div class="flex flex-col gap-[50px] items-center w-[100%] h-[100%]">
+
+                                <h2 class="text-bgColorMorado font-primary font-bold lg:text-5xl text-4xl md:w-[70%]">  Aqui HV clasica.  </h2>
+                                <p class="lg:text-xl text-purple-900 md:w-[70%]">Para los amantes de lo clasico darle click para mirar mas informacion de mi HV digital en el boton.</p>
+                                <button class="text-purple-900 font-primary font-semibold w-[70%] h-[50px] border-2 border-bgColorMorado hover:bg-bgColorMorado hover:text-white  transition-all">Mas Informacion </button>
+                                
+                            </div>
+                        </div>
+
+                    </div>
+            </div>
+
+        </section>
+
+        <section id="section2">
+            <div class="w-[100%] h-[100vh]">
+                <div id="bgSection1" class=" w-[100%] h-[100%] text-center bg-bgColorMorado p-2 "> 
+                    <div class="w-[90%] h-[90%] m-auto  flex flex-col font-primary gap-2 md:gap-7">
+                        <div class="p-2">
+                             <h2 class="font-semibold text-white text-4xl">Mi Especialidad </h2>
+                        </div>
+
+                        <div class="md:flex md:flex-row md:gap-4 w-full h-full flex flex-col">
+
+                            <div class="rounded-md bg-bgColorBlanco w-[90%] h-[30%] m-auto flex justify-around p-4 md:w-[80%] md:h-[250px]">
+                                
+                                <div class="w-[20%]">
+                                    
+                                    <img class="h-[100%] w-[80px]" src="src/img/bxl-html5.svg" alt="">
+                                
+                            </div>
+
+                            <div class="w-[70%] text-[.7rem] flex flex-col justify-center">
+                                <h2 class="font-bold text-purple-500 p-1">HTML5</h2>
+                                <p class="text-[.7rem] sm:text-[.9rem]">Experiencia en estructura de HTML con buenas practicas de arquitectura para elaborar diseños web y aplicaciones. </p>
+                            </div>
+                            
+                        </div>
+                        
+                        <div class="rounded-md bg-bgColorBlanco w-[90%] h-[30%] m-auto flex items-center p-4 md:w-[80%] md:h-[250px]">
+                           <div class="flex flex-col w-[30%]">
+                               <img class=" w-[60px] h-[50%]" src="src/img/bxl-tailwind-css.svg" alt="icono tailwind">
+                               <img class=" w-[60px] h-[50%]" src="src/img/bxl-css3.svg" alt="icono css">
+                            </div>
+                            <div class="w-[70%] text-[.7rem]">
+                                <h2 class="font-bold text-purple-500 p-1">TAILWIND Y CSS</h2>
+                                <p class="text-[.7rem] sm:text-[.9rem]"> Conocimiento profundo de las últimas técnicas y estándares de diseño web, capacidad demostrada para crear interfaces atractivas y responsivas.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="rounded-md bg-bgColorBlanco w-[90%] h-[30%] m-auto flex md:w-[80%] md:h-[250px]">
+                            
+                            <div class="w-[20%]">
+                                
+                                <img class="h-[100%] w-[80px]" src="src/img/bxl-javascript.svg" alt="icono javascript">
+                                
+                            </div>
+                            
+                            <div class="w-[70%] text-[.7rem] flex flex-col justify-center p-4 md:w-[80%] md:h-[90%]">
+                                <h2 class="font-bold text-purple-500 p-1">JAVASCRIPT</h2>
+                                <p class="text-[.7rem] sm:text-[.9rem]">Experiencia en estructura de HTML con buenas practicas de arquitectura y para elaborar diseños web y aplicaciones. </p>
+                            </div>
+                        </div>
+                    </div>
+
+                        <div class="flex flex-col items-center">
+                            <div class="relative top-[20%] s:text-[.2rem] sm:text-[.53rem] md:text-[.7rem] w-[100%] left-[7%] h-[10%]" >
+
+                                <p id="efectoPortatil"></p>
+                            </div>
+                            <img id="textPortatil"  class="hover:cursor-pointer w-[70%] h-[75%]" src="src/img/undraw_code_thinking_re_gka2.svg" alt="imagen hombre pensando">
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="section3">
+            <div class="w-[100%] lg:h-[100vh]  h-[125vh]  m-0 sm:gap-3 flex flex-col ">
+                <div class="h-[10%] w-[100%] m-auto gap-[10px]">
+
+                    <h2 class="text-xl text-center sm:p-7 font-secondary-alt font-bold sm:text-3xl text-bgColorMorado">Mis Proyectos Recientes ..</h2>
+                    <p class="text-sm text-center font-primary-alt sm:text-[1rem] sm:m-auto  m-4  ">Si quieres conocer mas sobre mis proyectos, animate y escrimebe al  <a class="hover:text-[16.3px] font-primary font-semibold text-bgColorMoradoClaro" href="formulario.html">Email@.com</a>
+                </div>
+                   
+                <div class=" sm:grid sm:grid-cols-2 sm:grid-rows-2 sm:items-end  w-[90%] lg:h-[50%] h-[90%] m-auto lg:flex lg:flex-row lg:justify-center lg:items-center flex flex-col gap-7 items-center">
+                    <div class=' sm:w-[90%] sm:h-[300px] sm:gap-3 lg:w-[400px] lg:h-[400px]  bg-slate-500 rounded-md hover:bg-slate-300 sm:transition-all hover:cursor-pointer lg:hover:w-[410px] lg:hover:h-[410px] w-[80%] h-[30%]'>
+                        <a href="https://blogdecafeelias.netlify.app/">
+                            <img  class="h-[55%]  w-[100%] sm:h-[70%] m-auto rounded-t-md lg:hover:w-[410px] lg:hover:has-[110vh] hover:cursor-pointer" src="src/img/BlogDeCaffe.png" alt="">
+                            <p class="font-primary font-semibold text-white text-center hover:text-bgColorNegro transition-colors  p-4">Un blog de Caffe con un diseño elegante para los amantes de la buena vida</p>
+                        </a>
+                    </div>
+                    <div class=" sm:w-[90%] sm:h-[300px] sm:gap-3 lg:w-[400px] lg:h-[400px] bg-slate-500 rounded-md hover:bg-slate-300 sm:transition-all hover:cursor-pointer lg:hover:w-[410px] lg:hover:h-[410px] w-[80%] h-[30%]" >
+                        <a href="https://proyectofreelancerelias.netlify.app/">
+                            
+                            <img class="h-[55%]  w-[100%] sm:h-[70%] m-auto rounded-t-md  lg:hover:w-[410px] lg:hover:has-[110vh]" src="src/img/DiseñoYDesarrollo.png" alt="">
+                            <p class="font-primary font-semibold text-white text-center hover:text-bgColorNegro transition-colors  p-4"> Simulamos un diseño web para ofrecer servicios front-end</p>
+                        </a>
+                    </div>
+                    <div class=" sm:w-[90%] sm:h-[300px] sm:gap-3 lg:w-[400px] lg:h-[400px] bg-slate-500 rounded-md hover:bg-slate-300 sm:transition-all hover:cursor-pointer lg:hover:w-[410px] lg:hover:h-[410px] w-[80%] h-[30%]">
+                        <a href="https://stockse.netlify.app/">
+
+                            <img class="h-[55%]  w-[100%] sm:h-[70%] m-auto rounded-t-md  lg:hover:w-[410px] lg:hover:has-[110vh]"  src="src/img/Store.png" alt="">
+                            <p  class="font-primary font-semibold text-white text-center hover:text-bgColorNegro transition-colors  p-4">Una web pensada para los emprendedores que tengan tiendas virtuales</p>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section>
+            <div class="w-[100%] h-[150px] border-b-2 flex gap-2">
+                
+                
+                <div class="w-[80%] h-[100%] flex justify-end items-center m-auto gap-4">
+                    <a href="index.html">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" style="fill: rgba(79, 9, 234, 1);transform: msFilter"><circle cx="12" cy="20" r="2"></circle><circle cx="12" cy="4" r="2"></circle><circle cx="6.343" cy="17.657" r="2"></circle><circle cx="17.657" cy="6.343" r="2"></circle><circle cx="4" cy="12" r="2.001"></circle><circle cx="20" cy="12" r="2"></circle><circle cx="6.343" cy="6.344" r="2"></circle><circle cx="17.657" cy="17.658" r="2"></circle></svg></a>
+    
+                </div>
+            </div>
+
+            <div class="sm:w-[70%] m-auto w-[90%]">
+                <div class="p-7 w-[100%] h-[100%] m-auto">
+    
+                    <h1 class="font-primary-alt text-center p-5 font-extrabold md:text-2xl text-xl  text-bgColorMoradoClaro">Estoy muy emocionado de que hayas llegado hasta aqui, dejame tu mensaje y con gusto lo leere ... </h1>
+                </div>
+            </div>
+        </section>
+
+    </main>   
+</body>
+
+
+<footer id="footer" >
+    <div class="flex-col w-[100%] h-screen bg-white">
+
+        <div class="bg-gray-700 w-[80%] h-[25vh] m-auto relative top-[100px] rounded-md">
+            <div class=" sm:flex sm:flex-row sm:items-center w-[80%] h-[25vh] m-auto rounded-md sm:justify-between font-primary-alt text-white flex flex-col gap-4 "> 
+                <h2 class="font-bold text-xl sm:text-2xl">Comencemos un proyecto</h2>
+                <h3 class="text-xs lg:text-sm">Si te gustaria trabajar conmigo o realizar algun proyecto pincha el boton situado a la derecha </h3>
+                <button class="border-2 border-bgColorVerde border-solid font-semibold bg-blue-50 md:w-[200px] md:h-[60px] w-[40%] h-[25%] md:text-[.8rem] text-black rounded-md hover:bg-indigo-400 hover:text-bgColorBlanco transition-all text-[.7rem] font-secondary-alt"> <a href="formulario.html">Vamos que esperas</a></button>
+            </div>
+        </div>
+        <div class="bg-bgColorMoradoClaro w-[100%] h-[80vh] md:flex md:flex-row md:justify-center md:items-center md:gap-9 flex flex-col justify-center items-center m-auto">
+            
+            
+            <h2 class="text-[1rem] font-primary text-bgColorBlanco p-3">La clave del exito esta en la disciplana, la constancia y la perserverancia.</h2>
+            <a href="https://www.instagram.com/elias_urrieta/"><svg class="hover:bg-black hover:rounded-md transition-all" xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 24 24" style="fill: rgba(255, 255, 255, 1);transform: msFilter"><path d="M20.947 8.305a6.53 6.53 0 0 0-.419-2.216 4.61 4.61 0 0 0-2.633-2.633 6.606 6.606 0 0 0-2.186-.42c-.962-.043-1.267-.055-3.709-.055s-2.755 0-3.71.055a6.606 6.606 0 0 0-2.185.42 4.607 4.607 0 0 0-2.633 2.633 6.554 6.554 0 0 0-.419 2.185c-.043.963-.056 1.268-.056 3.71s0 2.754.056 3.71c.015.748.156 1.486.419 2.187a4.61 4.61 0 0 0 2.634 2.632 6.584 6.584 0 0 0 2.185.45c.963.043 1.268.056 3.71.056s2.755 0 3.71-.056a6.59 6.59 0 0 0 2.186-.419 4.615 4.615 0 0 0 2.633-2.633c.263-.7.404-1.438.419-2.187.043-.962.056-1.267.056-3.71-.002-2.442-.002-2.752-.058-3.709zm-8.953 8.297c-2.554 0-4.623-2.069-4.623-4.623s2.069-4.623 4.623-4.623a4.623 4.623 0 0 1 0 9.246zm4.807-8.339a1.077 1.077 0 0 1-1.078-1.078 1.077 1.077 0 1 1 2.155 0c0 .596-.482 1.078-1.077 1.078z"></path><circle cx="11.994" cy="11.979" r="3.003"></circle></svg>
+            </a>
+            <a href="https://x.com/EliasUm94"><svg class="hover:bg-black hover:rounded-full transition-all" xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 24 24" style="fill: rgba(255, 255, 255, 1);transform: msFilter"><path d="M19.633 7.997c.013.175.013.349.013.523 0 5.325-4.053 11.461-11.46 11.461-2.282 0-4.402-.661-6.186-1.809.324.037.636.05.973.05a8.07 8.07 0 0 0 5.001-1.721 4.036 4.036 0 0 1-3.767-2.793c.249.037.499.062.761.062.361 0 .724-.05 1.061-.137a4.027 4.027 0 0 1-3.23-3.953v-.05c.537.299 1.16.486 1.82.511a4.022 4.022 0 0 1-1.796-3.354c0-.748.199-1.434.548-2.032a11.457 11.457 0 0 0 8.306 4.215c-.062-.3-.1-.611-.1-.923a4.026 4.026 0 0 1 4.028-4.028c1.16 0 2.207.486 2.943 1.272a7.957 7.957 0 0 0 2.556-.973 4.02 4.02 0 0 1-1.771 2.22 8.073 8.073 0 0 0 2.319-.624 8.645 8.645 0 0 1-2.019 2.083z"></path></svg>
+            </a>
+            <a href="https://web.facebook.com/elias.urrieta1"><svg class="hover:bg-black hover:rounded-full transition-all" xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 24 24" style="fill: rgb(245, 245, 245);transform: msFilter"><path d="M12.001 2.002c-5.522 0-9.999 4.477-9.999 9.999 0 4.99 3.656 9.126 8.437 9.879v-6.988h-2.54v-2.891h2.54V9.798c0-2.508 1.493-3.891 3.776-3.891 1.094 0 2.24.195 2.24.195v2.459h-1.264c-1.24 0-1.628.772-1.628 1.563v1.875h2.771l-.443 2.891h-2.328v6.988C18.344 21.129 22 16.992 22 12.001c0-5.522-4.477-9.999-9.999-9.999z"></path></svg>    
+            </a>
+            <a href="formulario.html"><svg class="hover:bg-black hover:rounded-md transition-all" xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 24 24" style="fill: rgba(255, 255, 255, 1);transform: msFilter"><path d="m18.73 5.41-1.28 1L12 10.46 6.55 6.37l-1.28-1A2 2 0 0 0 2 7.05v11.59A1.36 1.36 0 0 0 3.36 20h3.19v-7.72L12 16.37l5.45-4.09V20h3.19A1.36 1.36 0 0 0 22 18.64V7.05a2 2 0 0 0-3.27-1.64z"></path></svg>
+            </a>
+            <a class="text-bgColorVerde font-semibold" href="https://github.com/elisum1/Portafolio">GitHub  <a class="font-semibold text-bgColorVerde " href="https://app.netlify.com/teams/elisum1/overview">Netifly</a></a>
+        </div>
+
+ </footer>
+<script src="src/js/jstail.js"></script>
+</html>
